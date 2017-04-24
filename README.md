@@ -12,3 +12,7 @@
 ### 填坑技巧
 - [LayaAir 游戏引擎初体验踩坑指南](/resources/LayaAir.md)
 - [exif.js 和 html2canvas 遇到的一些坑](/resources/exifjs_and_html2canvas.md)
+
+
+### 小程序技巧
+-[小程序问题集合](https://github.com/o2team/wxapp-issue-list/blob/master/issue-list.md)
