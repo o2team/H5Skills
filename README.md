@@ -15,4 +15,4 @@
 
 
 ### 小程序技巧
--[小程序问题集合](https://github.com/o2team/wxapp-issue-list/blob/master/issue-list.md)
+- [小程序问题集合](https://github.com/o2team/wxapp-issue-list/blob/master/issue-list.md)
