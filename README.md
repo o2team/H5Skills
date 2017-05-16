@@ -8,6 +8,7 @@
 - [商品组标签模块适配](/resources/商品组标签模块适配.md)
 - [常用商品组占位图实现](/resources/常用商品组占位图实现.md)
 - [Sass语法，学得更多一些](/resources/learn_more_sass.md)
+- [解决 Android 浏览器下 line-height 垂直居中偏离问题](/resources/android_lineheight.md)
 
 ### 填坑技巧
 - [LayaAir 游戏引擎初体验踩坑指南](/resources/LayaAir.md)
