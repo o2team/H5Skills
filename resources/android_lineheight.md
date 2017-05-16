@@ -2,11 +2,11 @@
 
 移动端网页开发中，经常会涉及到一些小按钮或者小标签，比如这种：
 
-<img src="http://storage.360buyimg.com/mtd/home/a_021494939266461.png">
+<img src="http://storage.360buyimg.com/mtd/home/a_021494939266461.png" width="400">
 
 对于一般 PC 浏览器以及 iOS 设备的浏览器表现就是我们想要的居中效果，但是大部分 Android 设备的浏览器文字都会稍微向上偏离，如下图所示：
 
-<img src="http://storage.360buyimg.com/mtd/home/b_021494939268926.png">
+<img src="http://storage.360buyimg.com/mtd/home/b_021494939268926.png" width="400">
 
 测试表明，字体字号为奇数的两倍时（比如 10px、14px、18px、22px、26px），会出现严重偏移现象。
 
