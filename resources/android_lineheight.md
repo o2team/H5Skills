@@ -22,8 +22,8 @@
 
 结合行高、对齐的关系，结合伪元素得出的黑科技，亲测效果很理想。
 
-```
-className::before {
+```css
+.jd::before {
     content: '';
     display: inline-block;
     vertical-align: middle;
