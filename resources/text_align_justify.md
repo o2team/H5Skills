@@ -2,7 +2,7 @@
 
 如下图几种场景，实现英文字母与中文字母两端对齐，且英文字符需要做到均分：
 
-<img src="http://chuantu.biz/t5/88/1494988638x2890173807.png" width="600">
+<img src="http://storage.360buyimg.com/mtd/home/b1494990046573.png" width="600">
 
 可以通过两种方案实现：
 
