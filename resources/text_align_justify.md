@@ -17,10 +17,10 @@
 ```
 
 ```css
-. jd {
+.jd {
     display: flex;
 }
-. jd i {
+.jd i {
     width: 1em;
     justify-content: space-between;
 }
