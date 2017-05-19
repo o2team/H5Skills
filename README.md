@@ -11,6 +11,7 @@
 - [文字两端且均分对齐技巧](/resources/text_align_justify.md)
 - [通过 :empty 选择器区分样式](/resources/empty.md)
 - [实现绝对底部（Sticky Footer）的几种方案](/resources/sticky_footer.md)
+- [移动端技巧大杂烩](/resources/mobile_skills.md)
 
 ### 填坑技巧
 - [LayaAir 游戏引擎初体验踩坑指南](/resources/LayaAir.md)
