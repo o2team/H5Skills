@@ -1,6 +1,6 @@
-# 移动端技巧集合
+# 移动端技巧大杂烩
 
-## 修改 iOS 下 input disabled 颜色
+### 修改 iOS 下 input disabled 颜色
 
 ```css
 input:disabled {
@@ -8,7 +8,7 @@ input:disabled {
 }
 ```
 
-## 设置 input 标签 placeholder 属性的样式
+### 设置 input 标签 placeholder 属性的样式
 
 ```css
 .example::-webkit-input-placeholder {
@@ -16,7 +16,7 @@ input:disabled {
 }
 ```
 
-## width: fit-content 不定宽块级元素居中
+### width: fit-content 不定宽块级元素居中
 
 ```html
 <div class="more_btn">查看更多</div>
@@ -38,7 +38,7 @@ input:disabled {
 }
 ```
 
-## 取消表单默认样式
+### 取消表单默认样式
 
 ```css
 input {
@@ -49,7 +49,7 @@ input {
 }
 ```
 
-## 渐变文字与镂空文字
+### 渐变文字与镂空文字
 
 ```html
 <p class="gradient_txt">渐变文字渐变文字渐变文字渐变文字</p>
@@ -72,7 +72,7 @@ input {
 }
 ```
 
-## not 匹配非指定元素
+### not 匹配非指定元素
 
 ```css
 li:not(:nth-last-child(-n+4)) { /* 除了倒数 4 个 */
@@ -84,7 +84,7 @@ li:not(:last-child) { /* 除了最后 1 个 */
 }
 ```
 
-## iOS Android 全屏视频
+### iOS Android 全屏视频
 
 iOS 下通过 `webkit-playsinline`、`playsinline` 实现内嵌全屏，不调用系统全屏，有必要的情况下配合 [iphone-inline-video](https://github.com/bfred-it/iphone-inline-video) 库使用。
 
@@ -108,7 +108,7 @@ Android 下通过 `x5-video-player-type="h5"`、`x5-video-player-fullscreen="tru
 <video src="video.mp4" x5-video-player-type="h5" x5-video-player-fullscreen="true"></video>
 ```
 
-## 判断浏览器是否支持 WebP 图片格式
+### 判断浏览器是否支持 WebP 图片格式
 
 ```javascript
 (function() {
@@ -124,7 +124,7 @@ Android 下通过 `x5-video-player-type="h5"`、`x5-video-player-fullscreen="tru
 }());
 ```
 
-## 判断浏览器是否支持 APNG
+### 判断浏览器是否支持 APNG
 
 ```javascript
 (function() {
@@ -139,7 +139,7 @@ Android 下通过 `x5-video-player-type="h5"`、`x5-video-player-fullscreen="tru
 }());
 ```
 
-## 隐藏滚动条
+### 隐藏滚动条
 
 iOS 版本微信从 UI WebView 升级到 WK WebView 后，偶尔会暂时失效
 
@@ -151,14 +151,14 @@ iOS 版本微信从 UI WebView 升级到 WK WebView 后，偶尔会暂时失效
 }
 ```
 
-## 微信查看当前是 UI WebView 还是 WK WebView
+### 微信查看当前是 UI WebView 还是 WK WebView
 
 微信进入任意页面，向下拉动页面，通过地址栏来查看
 
 WK WebView 为：此网页由 xxx.xx.com 提供
 UI WebView 为：网页由 xxx.xx.com 提供
 
-## 弹性滚动
+### 弹性滚动
 
 ```css
 /* 目前仅支持iOS */
@@ -167,7 +167,7 @@ UI WebView 为：网页由 xxx.xx.com 提供
 }
 ```
 
-## CSS3 滤镜
+### CSS3 滤镜
 
 ```css
 .example-1 {
@@ -211,7 +211,7 @@ UI WebView 为：网页由 xxx.xx.com 提供
 }
 ```
 
-## 单行文字超出省略号
+### 单行文字超出省略号
 
 ```css
 .example {
@@ -222,7 +222,7 @@ UI WebView 为：网页由 xxx.xx.com 提供
 }
 ```
 
-## 多行文字超出省略号
+### 多行文字超出省略号
 
 ```css
 .example {
@@ -234,7 +234,7 @@ UI WebView 为：网页由 xxx.xx.com 提供
 }
 ```
 
-## user-select 属性
+### user-select 属性
 
 ```css
 .example {
@@ -246,11 +246,11 @@ UI WebView 为：网页由 xxx.xx.com 提供
 }
 ```
 
-## 判断用户手机旋屏
+### 判断用户手机旋屏
 
 推荐文章：[探讨判断横竖屏的最佳实现](https://aotu.io/notes/2017/01/31/detect-orientation/)
 
-## 取消点击 a、button、input 标签后区域半透明遮罩
+### 取消点击 a、button、input 标签后区域半透明遮罩
 
 ```css
 a, button, input {
@@ -258,13 +258,13 @@ a, button, input {
 }
 ```
 
-## 使用 Chrome 模拟手机调试时字号太大
+### 使用 Chrome 模拟手机调试时字号太大
 
 Google Chrome 默认浏览器字体最小字体为：12px，而我们手机端页面常常字体小于 12px
 
 解决：右上角（自定义及控制） -> 设置 -> 显示高级设置 -> 网络内容（自定义字体） -> 最小字号（最小可以设置为 6px）
 
-## 监听 CSS3 动画事件
+### 监听 CSS3 动画事件
 
 ```javascript
 /*
@@ -282,7 +282,7 @@ example.addEventListener("webkitAnimationIteration", function() {
 }, false);
 ```
 
-## 判断用户是否在手机端
+### 判断用户是否在手机端
 
 ```javascript
 if (/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
@@ -290,7 +290,7 @@ if (/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAge
 }
 ```
 
-## 图片水平镜像反转
+### 图片水平镜像反转
 
 ```css
 .example-1 {
@@ -301,7 +301,7 @@ if (/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAge
 }
 ```
 
-## 自旋转动画
+### 自旋转动画
 
 ```html
 <div class="example"></div>
@@ -329,7 +329,7 @@ if (/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAge
 }
 ```
 
-## 穿透属性
+### 穿透属性
 
 当元素叠在一起时，需要触发下层的元素时，给上层元素加该属性
 
@@ -339,19 +339,19 @@ if (/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAge
 }
 ```
 
-## 使 :active 生效
+### 使 :active 生效
 
 ```html
 <body ontouchstart>
 ```
 
-## 禁用自动识别页面中的电话号码
+### 禁用自动识别页面中的电话号码
 
 ```html
 <meta name="format-detection" content="telephone=no">
 ```
 
-## 微信 CSS 支持度查询
+### 微信 CSS 支持度查询
 
 iOS 系统微信使用的是 Safari 的内核，查支持度到 [Can I use](http://caniuse.com/) 即可
 
