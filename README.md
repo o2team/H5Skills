@@ -17,7 +17,7 @@
 - [隐藏滚动条](/resources/hideen_scrollbar.md)
 - [CSS3 滤镜](/resources/css3_filter.md)
 - [判断用户手机旋屏](/resources/screen_rotate.md)
-- [实现渐变文字与镂空文字](/resources/gradient_hollow.md)
+- [实现渐变文字与镂空文字](/resources/gradient_hollow_txt.md)
 - [使用 not 简化样式](/resources/not_match.md)
 - [文字超出省略号](/resources/textoverflow.md)
 - [不定宽块级元素水平居中](/resources/fit_content.md)

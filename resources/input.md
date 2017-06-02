@@ -20,7 +20,7 @@ input:disabled {
 
 ```css
 input {
-	border: none;
+    border: none;
     background: none;
     appearance: none;
     border-radius: 0;

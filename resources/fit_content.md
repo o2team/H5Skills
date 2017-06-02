@@ -8,12 +8,12 @@
 
 ```css
 .more_btn {
-	text-align: center;
+    text-align: center;
 }
 .more_btn span {
-	display: inline-block;
-	padding: 0 30px;
-	height: 40px;
+    display: inline-block;
+    padding: 0 30px;
+    height: 40px;
     line-height: 40px;
     background: #4caf50;
     color: #fff;
@@ -31,7 +31,7 @@
 
 ```css
 .more_btn {
-	margin: auto;
+    margin: auto;
     padding: 0 30px;
     width: -webkit-fit-content;
     width: fit-content; /* 关键 : 宽度等于内容宽度 */
