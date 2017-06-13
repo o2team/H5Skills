@@ -21,6 +21,7 @@
 - [使用 not 简化样式](/resources/not_match.md)
 - [文字超出省略号](/resources/textoverflow.md)
 - [不定宽块级元素水平居中](/resources/fit_content.md)
+- [setTimeout and setInterval for createjs](/resources/setTimeout_and_setInterval_for_createjs.md)
 
 
 ### 填坑技巧
