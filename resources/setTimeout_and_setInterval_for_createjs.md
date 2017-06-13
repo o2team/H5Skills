@@ -2,7 +2,7 @@
 
 ## 原生API带来的问题
 
-`createjs` 不提供 `setTimeout` 和 `setInterval` 这两个API的。如果直接使用原生的 API 会造成一些意想不到的麻烦，例如我想暂停游戏和游戏的倒计时（setInterval）需要分成两部分来处理：
+`createjs` 并没有提供替代 `setTimeout` 和 `setInterval` 的API。如果使用原生的 API 会造成一些意想不到的麻烦，例如我想暂停游戏和游戏的倒计时（setInterval）需要分成两部分来处理：
 
 1. createjs.Ticker.paused = 1; 
 2. clearInterval
