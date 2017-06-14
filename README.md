@@ -22,6 +22,7 @@
 - [文字超出省略号](/resources/textoverflow.md)
 - [不定宽块级元素水平居中](/resources/fit_content.md)
 - [setTimeout and setInterval for createjs](/resources/setTimeout_and_setInterval_for_createjs.md)
+- [谈谈 tween 的暂停方法：pause](/resources/pause_of_tween.md)
 
 
 ### 填坑技巧
