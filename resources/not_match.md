@@ -26,9 +26,3 @@
     margin-right: 10px;
 }
 ```
-
-```css
-li:not(:nth-last-child(-n+4)) { /* 除了倒数 4 个 */
-    margin-bottom: 10px;
-}
-```
