@@ -23,6 +23,7 @@
 - [不定宽块级元素水平居中](/resources/fit_content.md)
 - [setTimeout and setInterval for createjs](/resources/setTimeout_and_setInterval_for_createjs.md)
 - [谈谈 tween 的暂停方法：pause](/resources/pause_of_tween.md)
+- [createjs.Tween.removeTweens的用法](https://github.com/o2team/H5Skills/blob/master/resources/how_to_use_removeTweens.md)
 
 
 ### 填坑技巧
