@@ -22,18 +22,18 @@
 // 定制一个 setTimeout 方法
 createjs.setTimeout = function(cb, delay) {
     var timeout = new createjs.Container(); 
-    createjs.Tween.get(timeout)
+    var tween = createjs.Tween.get(timeout)
         .wait(delay)
         .call(function() {
             cb && cb(); 
-            createjs.clearTimeout(timeout); 
+            createjs.clearTimeout(tween); 
         }); 
-    return timeout; 
+    return tween; 
 }
 // 定制一个 clearTimeout 方法
-createjs.clearTimeout = function(timeout) {
-    // 删除动画
-    createjs.Tween.removeTweens(timeout); 
+createjs.clearTimeout = function(timeout) { 
+    // 删除动画 
+    createjs.Tween.removeTweens(timeout.target); 
     // 删除实例
     timeout = undefined; 
 }
@@ -43,23 +43,33 @@ createjs.clearTimeout = function(timeout) {
 // 定制一个 setInterval 方法
 createjs.setInterval = function(cb, delay) {
     var interval = new createjs.Container(); 
-    createjs.Tween.get(interval)
-        .wait(delay)
+    var tween = createjs.Tween.get(interval)
+        .wait(delay) 
         .call(function() {
             cb && cb(); 
-        })
-        .loop = 1; // 无限循环 
-    return interval; 
+        }); 
+    tween.loop = 1; 
+    return tween; 
 }
 // 定制一个 clearInterval 方法
-createjs.clearInterval = function(interval) {
+createjs.clearInterval = function(interval) { 
     // 删除动画
-    createjs.Tween.removeTweens(interval); 
+    createjs.Tween.removeTweens(interval.target); 
     // 删除实例
     interval = undefined; 
 }
 ```
+
 使用新写的 `setTimeout` 和 `setInterval` 可以把暂停和恢复游戏变得很简单： 
 - createjs.Ticker.paused = 1; // 暂停游戏和游戏倒计时
 - createjs.Ticker.paused = 0; // 恢复游戏和游戏倒计时
+
+如果只是想暂停当前的 `setTimeout`/`setInterval` 可以这样子： 
+
+```
+var siv = createjs.setInterval(function(){console.log("testing")}, 1000); 
+createjs.Tween.get(siv.target).pause(siv); // 返回的 siv 其实是一个 tween
+```
+
+
 
