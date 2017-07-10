@@ -11,6 +11,20 @@
 - [文字两端且均分对齐技巧](/resources/text_align_justify.md)
 - [通过 :empty 选择器区分样式](/resources/empty.md)
 - [实现绝对底部（Sticky Footer）的几种方案](/resources/sticky_footer.md)
+- [input 标签相关样式](/resources/input.md)
+- [微信下 iOS Android 全屏视频](/resources/video_full.md)
+- [判断是否为 WebP、APNG 格式](/resources/webp_and_apng.md)
+- [隐藏滚动条](/resources/hideen_scrollbar.md)
+- [CSS3 滤镜](/resources/css3_filter.md)
+- [判断用户手机旋屏](/resources/screen_rotate.md)
+- [实现渐变文字与镂空文字](/resources/gradient_hollow_txt.md)
+- [使用 not 简化样式](/resources/not_match.md)
+- [文字超出省略号](/resources/textoverflow.md)
+- [不定宽块级元素水平居中](/resources/fit_content.md)
+- [setTimeout and setInterval for createjs](/resources/setTimeout_and_setInterval_for_createjs.md)
+- [谈谈 tween 的暂停方法：pause](/resources/pause_of_tween.md)
+- [createjs.Tween.removeTweens的用法](https://github.com/o2team/H5Skills/blob/master/resources/how_to_use_removeTweens.md)
+
 
 ### 填坑技巧
 - [LayaAir 游戏引擎初体验踩坑指南](/resources/LayaAir.md)
